@@ -21,9 +21,15 @@ def norm(
     
     return ret
 
+def matrixInnerProduct(A, B):
+    # The conjugate is the generalization (complex numbers) of the inner product to matrices.
+    return np.trace(A @ np.matrix.conjugate(B.T))
+
 def cosineDistance(a, b):
-    # https://en.wikipedia.org/wiki/Cosine_similarity
-    # It is only defined for vectors.
     if a.ndim == 1 and b.ndim == 1:
         Sc = np.dot(a, b) / (np.linalg.norm(a, ord=2) * np.linalg.norm(b, ord=2))
+    elif a.ndim == 2 and b.ndim == 2:
+        Sc = matrixInnerProduct(a, b) / np.sqrt(matrixInnerProduct(a, a) * matrixInnerProduct(b, b))
+    else:
+        raise ValueError("Cosine distance is only defined for vectors and matrices.")
     return 1 - Sc
