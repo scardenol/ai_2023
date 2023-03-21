@@ -10,5 +10,5 @@ This directory contains the first workshop, where a custom multi-layer perceptro
 # 2. Hybrid supervised
 This directory contains the second workshop, where we focused on the implementation of autoencoders, convolutional neural networks (CNN) and generative adversarial networks (GAN).
 
-# 3. matrix_norms
-Contains a few of the most common norms for matrices.
+# 3. Unsupervised
+This directory currently contains the matrix norms to be used in classification algorithms such as: mountain, substractive, k-means and fuzzy c-means.
