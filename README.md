@@ -10,8 +10,5 @@ This directory contains the first workshop, where a custom multi-layer perceptro
 # 2. Hybrid supervised
 This directory contains the second workshop, where we focused on the implementation of autoencoders, convolutional neural networks (CNN) and generative adversarial networks (GAN).
 
-## GAN
-Contains a pre-trained convolutional neural network that was adapted to take an arbitrary video with and arbitrary reference style image, and retrains the network to transfer the style of the reference image to the input video. The characteristics of the original video are preserved in the output, such as: audio, frames per second (fps) and frame size (length,width).
-
 # 3. matrix_norms
 Contains a few of the most common norms for matrices.
