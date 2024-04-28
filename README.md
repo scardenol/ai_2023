@@ -16,7 +16,7 @@ This directory contains the third workshop, where we performed exploratory clust
 # Installation
 To run any python script locally follow this steps:
 
-0. Open a terminal in the project directory and have an installation of [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
+0. Clone this repo and open a terminal in the project directory. Make sure you have installed [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 1. Create a new conda environment with Python 3.10.9 (replace ```myenv``` with your desired name):
 
